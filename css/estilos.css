@@ -1,0 +1,168 @@
+
+
+body{
+    font-family: "Jura", sans-serif;    
+}
+
+
+.rojo{
+    color:rgb(90, 10, 10);
+}
+.texto-oscuro{
+    font-weight:800;
+    color:rgb(90, 10, 10);
+}
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.marco_imagen{
+    position:relative;
+    max-width: 200px;
+    margin:0.6em auto;
+
+}
+.marco_imagen .spinner{
+    width :200px;
+    height: 200px;
+    border: 0.5em solid #3d3d3d;
+    border-right-color: #b23e35;
+    border-bottom-color:#b23e35;
+    box-shadow: 4px 4px 4px 4px gray;
+    transition: 0.8s;
+    border-radius: 50%;   
+}
+
+.marco_imagen:hover .spinner{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -transform: rotate(180deg);
+
+}
+
+.marco_imagen  img{
+    display: block;   
+    position:absolute;     
+    margin-left: auto;
+    margin-right: auto;    
+    bottom: 0.5em;
+    left: 0.5em;
+    top: 0.5em;
+    right: 0.5em;    
+    object-fit: cover;
+    border-radius: 50%;   
+    width: 100%
+
+}
+
+.centrar{
+    text-align: center;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;   
+
+}
+
+.rojo{
+    color:rgb(90, 10, 10);
+}
+.texto-oscuro{
+    font-weight:800;
+    color:rgb(90, 10, 10);
+}
+
+
+/* ESTILOS PARA LOS ICONOS DE LAS REDES SOCIALES*/
+/**************************************************/
+
+
+.iconos_redes_sociales {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;    
+}
+
+.iconos_redes_sociales a {
+    background-color: #efefef;
+    color:gray;
+}
+
+
+.circulares a {
+    display: inline-block;        
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding-top: 15px;
+    text-align: center;
+    width: 55px;
+    height: 40px;
+    font-size:medium;    
+}
+
+
+.iconos_redes_sociales a.icoEmail:hover {
+    background-color: #000;
+    color:white;
+}
+
+
+.iconos_redes_sociales  a.icoFacebook:hover {
+    background-color: #3B5998;
+    color:white;
+}
+
+.iconos_redes_sociales  a.icoTwitter:hover {
+    background-color: #33ccff;
+    color:white;
+}
+
+.iconos_redes_sociales  a.icoInstagram:hover {
+    background-color: #bc2a8d;
+    color:white;    
+}
+
+.iconos_redes_sociales  a.icoYoutube:hover {
+    background-color: #b70808;
+    color:white;
+}
+
+.iconos_redes_sociales  a.icoLinkedin:hover {
+    background-color: #007bb7;
+    color:white;
+}
+
+/* ESTILO LOS BOTONES INFERIORES*/
+/**************************************************/
+.lineavacia {
+    flex-basis: 100%;
+    height: 0;
+  }
+.botones_abajo{
+    padding-top: 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.boton {
+	background-color:white;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	cursor:pointer;
+	color:red;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+    margin:2px;
+}
+.boton:hover {
+	background-color:#d83526;
+    color:#ffffff;
+    font-weight:bold;
+
+}
